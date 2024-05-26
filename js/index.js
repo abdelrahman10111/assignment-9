@@ -1,26 +1,27 @@
 var QUOTES = [
   {
-    teller: "Hamoksha",
-    message: "h hjhjh jhj yjh yyyjy jy ",
+    teller: " Oscar Wilde",
+    message: "“Be yourself; everyone else is already taken.”",
   },
   {
-    teller: "Abdo",
-    message: "h hjhjh jhj yjh yyyjy jy",
+    teller: " Marilyn Monroe",
+    message:
+      "“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",
   },
   {
-    teller: "Hamo",
-    message: "h hjhjh jhj yjh yyyjy jy",
+    teller: "Frank Zappa",
+    message: "“So many books, so little time.”",
   },
   {
-    teller: "Hamada",
-    message: "h hjhjh jhj yjh yyyjy jy",
+    teller: "Mae West",
+    message: "“You only live once, but if you do it right, once is enough.”",
   },
 ];
 
 function addQuotes() {
-    debugger
-  var index = Math.floor(Math.random() * (QUOTES.length));
-  var quote = QUOTES[index]
+  debugger;
+  var index = Math.floor(Math.random() * QUOTES.length);
+  var quote = QUOTES[index];
   displayQuote(quote.teller, quote.message);
 }
 
