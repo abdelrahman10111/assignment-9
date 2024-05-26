@@ -1,7 +1,7 @@
 var QUOTES = [
   {
     teller: "Hamoksha",
-    message: "h hjhjh jhj yjh yyyjy jy",
+    message: "h hjhjh jhj yjh yyyjy jy ",
   },
   {
     teller: "Abdo",
