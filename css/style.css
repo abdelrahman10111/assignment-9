@@ -1,0 +1,18 @@
+button{
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400px;
+}
